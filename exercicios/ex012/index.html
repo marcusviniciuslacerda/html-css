@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em html5
+    </title>
+    <style>
+        h1{
+           color: white;
+           background-color: #494848;
+        }
+        p{
+            color: white;
+        }
+
+    </style>
+</head>
+<body style="background-color: rgb(27, 17, 17);">
+    <h1>Inserindo vidoes hospedados localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor</p>
+   
+    <video width="500" height="315"
+    " poster="imagens/fundo 2.jpg" controls loop>
+       <source src="midia/meu-video.mkv.mkv" type="video/mkv">
+       <source src="midia/meu-video.mp4.mp4" type="video/mp4">
+       <source src="midia/meu-video.webm.webm" type="video/webm">
+       <p>Seu navegador não te compatibilidade com a reprodução de video</p>
+    </video>
+    <h1>Inserindo videos do yotube</h1>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/UlEibZnvgdA?si=9O68p72nwdzLd7Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1>Inserindo videos do vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/110577442?h=c2c033cc3d" width="500" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
